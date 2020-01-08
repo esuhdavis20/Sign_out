@@ -60,7 +60,7 @@ table{
     $sql= "INSERT INTO sign_out(studentid,location, timeout, timein)
     VALUES ('$studentid','$location',NOW(), NULL)";
 
-    if ($conn->query($sql)) {
+  /*  if ($conn->query($sql)) {
       echo "<p> Recorded Successfully</p>">;
     }
 
